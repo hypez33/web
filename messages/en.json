@@ -1,0 +1,46 @@
+{
+  "app": {
+    "title": "Fleet Manager",
+    "tagline": "Plan, monitor and optimize your vehicles in one place."
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "vehicles": "Vehicles",
+    "services": "Services",
+    "repairs": "Repairs",
+    "appointments": "Appointments",
+    "reports": "Reports",
+    "settings": "Settings",
+    "notifications": "Notifications",
+    "billing": "Billing",
+    "admin": "Admin"
+  },
+  "sidebar": {
+    "overview": "Overview",
+    "analytics": "Analytics & Communication",
+    "platform": "Platform"
+  },
+  "dashboard": {
+    "welcome": "Welcome back, {name}",
+    "trialBanner": "Your trial ends in {days, plural, one {# day} other {# days}}. Upgrade now to retain full access.",
+    "kpi": {
+      "activeVehicles": "Active Vehicles",
+      "upcomingServices": "Upcoming Services",
+      "overdueItems": "Overdue Items",
+      "monthlyCost": "Monthly Maintenance Cost"
+    },
+    "actions": {
+      "addVehicle": "Add Vehicle",
+      "importCsv": "Import CSV",
+      "requestAppointment": "Request Appointment"
+    }
+  },
+  "status": {
+    "green": "All good",
+    "amber": "Due soon",
+    "red": "Overdue"
+  },
+  "footer": {
+    "copyright": "© {year} Fleet Manager. All rights reserved."
+  }
+}

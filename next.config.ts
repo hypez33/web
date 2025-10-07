@@ -1,7 +1,13 @@
-import type { NextConfig } from "next";
+import createNextIntlPlugin from "next-intl/plugin";
+import { fileURLToPath } from "url";
+import path from "path";
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
+const withNextIntl = createNextIntlPlugin("./i18n/config.ts");
 
-export default nextConfig;
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../../");
+
+export default withNextIntl({
+  turbopack: {
+    root
+  }
+});

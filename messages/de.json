@@ -1,0 +1,46 @@
+{
+  "app": {
+    "title": "Fuhrpark Manager",
+    "tagline": "Planen, überwachen und optimieren Sie Ihre Fahrzeuge an einem Ort."
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "vehicles": "Fahrzeuge",
+    "services": "Services",
+    "repairs": "Reparaturen",
+    "appointments": "Termine",
+    "reports": "Berichte",
+    "settings": "Einstellungen",
+    "notifications": "Benachrichtigungen",
+    "billing": "Abrechnung",
+    "admin": "Admin"
+  },
+  "sidebar": {
+    "overview": "Übersicht",
+    "analytics": "Analyse & Kommunikation",
+    "platform": "Plattform"
+  },
+  "dashboard": {
+    "welcome": "Willkommen zurück, {name}",
+    "trialBanner": "Ihre Testphase endet in {days, plural, one {# Tag} other {# Tagen}}. Jetzt upgraden, um vollen Zugriff zu behalten.",
+    "kpi": {
+      "activeVehicles": "Aktive Fahrzeuge",
+      "upcomingServices": "Anstehende Services",
+      "overdueItems": "Überfällige Punkte",
+      "monthlyCost": "Monatliche Wartungskosten"
+    },
+    "actions": {
+      "addVehicle": "Fahrzeug hinzufügen",
+      "importCsv": "CSV importieren",
+      "requestAppointment": "Termin anfragen"
+    }
+  },
+  "status": {
+    "green": "Alles im grünen Bereich",
+    "amber": "Bald fällig",
+    "red": "Überfällig"
+  },
+  "footer": {
+    "copyright": "© {year} Fuhrpark Manager. Alle Rechte vorbehalten."
+  }
+}
